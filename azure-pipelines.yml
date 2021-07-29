@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-- task: PowerShell@2
+- task: PowerShell@1
   inputs:
     targetType: 'inline'
     script: 'python -m pytest'
